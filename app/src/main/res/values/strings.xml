@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GlobalLogik</string>
+    <string name="error">Error</string>
+    <string name="accept">Aceptar</string>
+    <string name="connection_problem">¡Problema de conexión!</string>
+    <string name="error_sending_data">¡Error al realizar la petición!</string>
+    <string name="try_again">Reintentar</string>
+    <string name="info_not_available">No hay información disponible.</string>
+    <string name="item_photo">Foto del item</string>
+</resources>
