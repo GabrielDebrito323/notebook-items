@@ -7,4 +7,6 @@
     <string name="try_again">Reintentar</string>
     <string name="info_not_available">No hay información disponible.</string>
     <string name="item_photo">Foto del item</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

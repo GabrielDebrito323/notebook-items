@@ -5,12 +5,17 @@
       <map>
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/drawable/ic_baseline_report_gmailerrorred_24.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2351851851851852" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout-land/activity_item_detail.xml" value="0.14427083333333332" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout-land/activity_main.xml" value="0.1515625" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout-land/fragment_list_items.xml" value="0.13645833333333332" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout/activity_item_detail.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout/cell_item.xml" value="0.21" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout/error_body_layout.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/layout/fragment_list_items.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/GlobalLogik/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13958333333333334" />
       </map>
     </option>
   </component>

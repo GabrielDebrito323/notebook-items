@@ -1,7 +1,6 @@
 package com.ed.globallogik.recycler_view;
 
 import android.view.View;
-
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ReusableViewHolder extends RecyclerView.ViewHolder {

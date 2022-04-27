@@ -2,9 +2,7 @@ package com.ed.globallogik.data;
 
 import com.ed.globallogik.App;
 import com.ed.globallogik.R;
-
 import java.io.IOException;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

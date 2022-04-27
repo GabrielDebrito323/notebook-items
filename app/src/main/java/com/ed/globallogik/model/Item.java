@@ -18,6 +18,7 @@ public class Item implements Serializable, RecyclerItem {
         this.title = title;
         this.description = description;
         this.imageUrl = imageUrl;
+
     }
 
     public String getTitle() {

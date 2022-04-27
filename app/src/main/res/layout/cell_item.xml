@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white"
     app:cardElevation="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -26,12 +28,13 @@
 
         <TextView
             android:id="@+id/cell_text_view_name"
+            style="@style/hText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            style="@style/hText"
-            android:maxLines="3"
             android:ellipsize="end"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.45"
+            android:maxLines="3"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_show_detail"
             app:layout_constraintStart_toEndOf="@+id/cell_image_view_thumbnail"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,14 +42,24 @@
             android:id="@+id/cell_text_view_description"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintWidth_percent="0.55"
-            android:maxLines="2"
             android:ellipsize="end"
+            android:maxLines="2"
+            style="@style/paragraphText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_show_detail"
             app:layout_constraintStart_toEndOf="@+id/cell_image_view_thumbnail"
-            app:layout_constraintTop_toBottomOf="@+id/cell_text_view_name" />
+            app:layout_constraintTop_toBottomOf="@+id/cell_text_view_name"
+            app:layout_constraintWidth_percent="0.5" />
 
+        <ImageView
+            android:id="@+id/image_view_show_detail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_baseline_search_24"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
